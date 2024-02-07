@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+
+
+
+
 .finicio{
   height: 550px;
 }
@@ -25,11 +29,6 @@ h6{
 }
 
 
-
-.galeria{
-background: #4C0070;
-height: 9900px;
-}
 h4{
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
@@ -37,61 +36,55 @@ h4{
     text-align: center;
     padding-top: 50px;
 }
-.container{
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-.card{
-    height: 500px;
-    width: 100%;
-    border-radius: 30px;
-    margin-top: 50px;
-}
-.card:hover{
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
-}
-.img-fluid{
-    height: 100%;
-    width: 100%;
-    border-radius: 30px;
-}
-.card1{
-    height: 1100px;
-    width: 100%;
-    margin-top: 50px;
-    border-radius: 30px;
-}
-.card1:hover{
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
-}
-#r{
+
+
+
+.body{
+    background: #9A0680;
     width: 100%;
     height: 100%;
-    border-radius: 30px;
+}
+
+.les{
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Sixtyfour', sans-serif;
 }
 
 
+
+
+.tarjetas{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    padding-top: 50px;
+   
+}
+#img1{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px;
+}
+#img1:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+}
 
 
 footer{
-    height: 100px;
-}
-.marca{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 150px;
     width: 100%;
-}
-#fondo1{
-    background: #191919;
-}
-h5{
-    color: white;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-
+.tma{
+    font-size: 20px;
+    color: white;
+}
 
 
 
@@ -101,13 +94,6 @@ h5{
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
     } 
-
-
-
-    .galeria{
-        background: #4C0070;
-        height: 5290px;
-        }
         h4{
             font-size: 15px;
             font-family: Arial, Helvetica, sans-serif;
@@ -115,24 +101,24 @@ h5{
             text-align: center;
             padding-top: 50px;
         }
-        .card{
-            height: 250px;
-            width: 100%;
-            border-radius: 30px;
-            margin-top: 50px;
-        }
 
 
-        .card1{
-            height: 550px;
-            width: 100%;
-            margin-top: 50px;
-            border-radius: 30px;
-        }
-        h5{
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
+        .tma{
             font-size: 10px;
+            color: white;
         }
+    
+        .fotos{
+            width: 100%;
+        }
+        #img1{
+            width: 100%;
+            margin: 0;
+            margin-top: 30px;
+        }
+    
+        footer{
+            width: 100%;
+        }
+
 }

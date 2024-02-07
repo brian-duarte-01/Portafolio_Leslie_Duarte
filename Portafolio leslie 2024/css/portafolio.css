@@ -3,11 +3,16 @@
     margin: 0px;
     padding: 0px;
 }
+.les{
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Sixtyfour', sans-serif;
+}
 .inicio{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 #fondo{
     background-image: url(../img/fondo1.gif);
@@ -19,8 +24,17 @@
 }
 .i{
     color: white;
-    font-size: 50px;
+    font-size: 100px;
     font-weight: 900;
+}
+.btn-outline-danger{
+ width: 150px;
+ border-radius: 40px;
+ background: #bbbeef;
+ color: black;
+ border: none;
+ font-family: 'Shadows Into Light', cursive;
+ font-family: 'Sixtyfour', sans-serif;
 }
 
 
@@ -221,6 +235,9 @@ h6{
         color: white;
         font-size: 30px;
         font-weight: 900;
+    }
+    .btn-outline-danger{
+        width: 200px;
     }
 
 

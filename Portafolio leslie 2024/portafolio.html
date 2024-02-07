@@ -20,6 +20,9 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--aos-->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Sixtyfour&display=swap" rel="stylesheet">
 
     <title>Portafolio | Leslie Duarte</title>
 </head>
@@ -29,7 +32,7 @@
     <!--menu-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Leslie Duarte</a>
+            <a class="navbar-brand" href="#"><marquee class="les" behavior="" direction="left">Leslie Duarte</marquee></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,7 +49,96 @@
                         <a class="nav-link" href="#proyectos">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contactame.html">Contàctame</a>
+                        
+                          <a href="" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Contactamé</a>
+                          
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Contactamé</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                        
+                                    
+                                    <form action="https://formsubmit.co/lesduarte11@gmail.com
+                                    " method="POST" onsubmit="return validar()" class="row g-3">
+                        
+                                    
+                                
+                        
+                                      <div class="col-md-4">
+                                        <label for="validationDefaultUsername" class="form-label">Nombre:</label>
+                                        <div class="input-group">
+                                          <span class="input-group-text" id="inputGroupPrepend2"><svg xmlns="http://www.w3.org/2000/svg"
+                                            width="20" height="20" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                                        </svg></span>
+                                          <input type="text" name="nombre:" placeholder="Digite su nombre" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+                                        </div>
+                                      </div>
+                        
+                                      <div class="col-md-4">
+                                        <label for="validationDefaultUsername" class="form-label">Celular:</label>
+                                        <div class="input-group">
+                                          <span class="input-group-text" id="inputGroupPrepend2">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                    width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd"
+                                                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                                </svg>
+                                          </span>
+                                          <input type="number" name="Celular:" placeholder="Digite su numero de celular" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+                                        </div>
+                                      </div>
+                        
+                                      <div class="col-md-4">
+                                        <label for="validationDefaultUsername" class="form-label">Correo:</label>
+                                        <div class="input-group">
+                                          <span class="input-group-text" id="inputGroupPrepend2">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                    width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                                                </svg>
+                                          </span>
+                                          <input type="email" name="Correo:" class="form-control" placeholder="Digite su email" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+                                        </div>
+                                      </div>
+                        
+                                      <div class="col-md-4">
+                                        <label for="validationDefaultUsername" class="form-label">Comentario:</label>
+                                        <div class="input-group">
+                                          <span class="input-group-text" id="inputGroupPrepend2">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                            width="16" height="16" fill="currentColor" class="bi bi-inbox-fill" viewBox="0 0 16 16">
+                                            <path
+                                                d="M4.98 4a.5.5 0 0 0-.39.188L1.54 8H6a.5.5 0 0 1 .5.5 1.5 1.5 0 1 0 3 0A.5.5 0 0 1 10 8h4.46l-3.05-3.812A.5.5 0 0 0 11.02 4H4.98zm-1.17-.437A1.5 1.5 0 0 1 4.98 3h6.04a1.5 1.5 0 0 1 1.17.563l3.7 4.625a.5.5 0 0 1 .106.374l-.39 3.124A1.5 1.5 0 0 1 14.117 13H1.883a1.5 1.5 0 0 1-1.489-1.314l-.39-3.124a.5.5 0 0 1 .106-.374l3.7-4.625z" />
+                                        </svg>
+                                          </span>
+                                          <input type="text" name="Comentario:" class="form-control" placeholder="Digite su comentario" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+                                        </div>
+                                      </div>
+                                        <div class="col-12">
+                                            <button class="btn btn-outline-dark" type="submit">Enviar <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                                                <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                                              </svg></button>
+                                          </div>
+                        
+                                        
+                                    </form>
+                        
+                        
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                     </li>
                 </ul>
             </div>
@@ -59,7 +151,7 @@
     <div class="inicio">
         <div id="fondo" class="inicio">
             <h1 class="i" data-aos="fade-up">
-                <a href="Cv Leslie_Duarte.pdf" class="btn btn-danger" download="CV leslie.pdf">Descargar CV</a>
+                <a href="Cv Leslie_Duarte.pdf" class="btn btn-outline-danger" download="CV leslie.pdf"><marquee behavior="" direction="">Descargar CV</marquee></a>
             </h1>
 
         </div>
@@ -74,8 +166,8 @@
 
             <div class="card" data-aos="fade-up">
 
-                <p class="ace">¡Hola mucho gusto! Soy Leslie Duarte tengo 26 años, Especialista en Publicidad y
-                    Diseñadora Web, me enfoco especialmente en el área de Marketing y Publicidad desde hace 3 años y 4
+                <p class="ace">¡Hola mucho gusto! Soy Leslie Duarte, Especialista en Publicidad y
+                    Diseñadora Web, me enfoco especialmente en el área de Marketing y Publicidad desde hace 4 años y 11
                     meses en donde he desempeñado mi conocimiento, creatividad y compromiso con cada uno de los
                     proyectos realizados para redes sociales, web, material impreso, ATL y BTL</p>
 
@@ -201,7 +293,7 @@
                     </svg></a>
             </div>
             <div class="card3">
-                <a href="https://wa.me/50236118405?text=Hola%20me%20interesa%20tu%20trabajo%20quiero%20contactarte!!"
+                <a href="https://wa.me/50258115583?text=Hola%20me%20interesa%20tu%20trabajo%20quiero%20contactarte!!"
                     class="btn btn-success"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
                         fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
                         <path
@@ -229,7 +321,7 @@
 
     <!--marca-->
     <section class="marca">
-        <h1 class="mar">&copy; 2021 Derechos de Autor Brian Duarte</h1>
+        <h1 class="mar">&copy; 2024 Derechos de Autor Brian Duarte</h1>
     </section>
     <!--marca-->
 
